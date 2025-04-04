@@ -23,7 +23,7 @@ export default function HomeScreen() {
         <ThemedText type="subtitle">Saldo em conta corrente:</ThemedText>
         <ThemedText>
           Edit <ThemedText type="defaultSemiBold">R$9,458,87</ThemedText>
-          Press{' '}
+          {' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
@@ -40,13 +40,13 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle">Rendimento total da conta </ThemedText>
         <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          {' '}
+          <ThemedText type="defaultSemiBold">$ 6,17</ThemedText> {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText> {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
