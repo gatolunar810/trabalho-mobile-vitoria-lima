@@ -34,7 +34,7 @@ export default function TabTwoScreen() {
           
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link">Learn more</ThemedText>
+          <ThemedText type="link"></ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Dinheiro guardado">
@@ -44,43 +44,37 @@ export default function TabTwoScreen() {
         </ThemedText>
       </Collapsible>
       <Collapsible title="Rendimento total da conta">
-        <ThemedText>
           R$ 6,87 Por mês <ThemedText type="defaultSemiBold"></ThemedText> {' '}
           <ThemedText type="defaultSemiBold"></ThemedText> 
-          
-        </ThemedText>
-        <Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
-        <ExternalLink href="https://reactnative.dev/docs/images">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
+          <ThemedText type="link"></ThemedText>
       </Collapsible>
       <Collapsible title="Seguro de vida">
         <ThemedText>
-           <ThemedText type="defaultSemiBold">R</ThemedText> to see how to load{' '}
+           <ThemedText type="defaultSemiBold"></ThemedText> Seguro ativo:{' '}
           <ThemedText style={{ fontFamily: 'SpaceMono' }}>
-            custom fonts such as this one.
+            116,70
           </ThemedText>
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/versions/latest/sdk/font">
-          <ThemedText type="link">Learn more</ThemedText>
+          <ThemedText type="link"></ThemedText>
         </ExternalLink>
       </Collapsible>
-      <Collapsible title="Finanças">
+      <Collapsible title="Emprestimos">
         <ThemedText>
-          This template has light and dark mode support. The{' '}
-          <ThemedText type="defaultSemiBold">useColorScheme()</ThemedText> hook lets you inspect
-          what the user's current color scheme is, and so you can adjust UI colors accordingly.
+          {' '}
+          <ThemedText type="defaultSemiBold">R$6,546 Disponivel pra você.</ThemedText> 
+          
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/develop/user-interface/color-themes/">
-          <ThemedText type="link">Learn more</ThemedText>
+          <ThemedText type="link"></ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Ajuda">
         <ThemedText>
-          This template includes an example of an animated component. The{' '}
-          <ThemedText type="defaultSemiBold">components/HelloWave.tsx</ThemedText> component uses
-          the powerful <ThemedText type="defaultSemiBold">react-native-reanimated</ThemedText>{' '}
-          library to create a waving hand animation.
+          Se você precisar de ajuda entre em contato com a agência{' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>por meio do seguinte numero
+           <ThemedText type="defaultSemiBold">+55 ****-****</ThemedText>{' '}
+          
         </ThemedText>
         {Platform.select({
           ios: (
