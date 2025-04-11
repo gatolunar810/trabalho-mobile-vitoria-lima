@@ -25,7 +25,7 @@ export default function TabTwoScreen() {
       <ThemedText>Aqui estão algumas opções para você:</ThemedText>
       <Collapsible title="Saldo em conta corrente:">
         <ThemedText>
-        R$9,458,87{' '}
+        R$9,458,87.{' '}
           <ThemedText type="defaultSemiBold"></ThemedText> {' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
@@ -39,20 +39,20 @@ export default function TabTwoScreen() {
       </Collapsible>
       <Collapsible title="Dinheiro guardado">
         <ThemedText>
-        R$ 1.576 {' '}
+        R$ 1.576. {' '}
           <ThemedText type="defaultSemiBold"></ThemedText> 
         </ThemedText>
       </Collapsible>
       <Collapsible title="Rendimento total da conta">
-          R$ 6,87 Por mês <ThemedText type="defaultSemiBold"></ThemedText> {' '}
-          <ThemedText type="defaultSemiBold"></ThemedText> 
+          <ThemedText type="defaultSemiBold"></ThemedText> {' '}
+          <ThemedText type="defaultSemiBold"> R$ 6,87 Por mês.</ThemedText>
           <ThemedText type="link"></ThemedText>
       </Collapsible>
       <Collapsible title="Seguro de vida">
         <ThemedText>
            <ThemedText type="defaultSemiBold"></ThemedText> Seguro ativo:{' '}
           <ThemedText style={{ fontFamily: 'SpaceMono' }}>
-            116,70
+            116,70.
           </ThemedText>
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/versions/latest/sdk/font">
@@ -62,7 +62,7 @@ export default function TabTwoScreen() {
       <Collapsible title="Emprestimos">
         <ThemedText>
           {' '}
-          <ThemedText type="defaultSemiBold">R$6,546 Disponivel pra você.</ThemedText> 
+          <ThemedText type="defaultSemiBold">R$6,546 Disponível pra você.</ThemedText> 
           
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/develop/user-interface/color-themes/">
@@ -72,7 +72,7 @@ export default function TabTwoScreen() {
       <Collapsible title="Ajuda">
         <ThemedText>
           Se você precisar de ajuda entre em contato com a agência{' '}
-          <ThemedText type="defaultSemiBold"></ThemedText>por meio do seguinte numero
+          <ThemedText type="defaultSemiBold"></ThemedText>por meio do seguinte número
            <ThemedText type="defaultSemiBold">+55 ****-****</ThemedText>{' '}
           
         </ThemedText>
