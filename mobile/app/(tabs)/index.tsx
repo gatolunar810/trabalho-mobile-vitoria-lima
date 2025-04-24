@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Platform } from 'react-native';
+import { Image, StyleSheet, Platform, Button } from 'react-native';
 
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
@@ -20,12 +20,24 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
+      <Button
+  onPress={() => {
+    console.log('You tapped the button!');
+  }}
+  title="PIX"
+/>
         <ThemedText type="subtitle">Transferências</ThemedText>
         <ThemedText>
-           <ThemedText type="defaultSemiBold">Ultima transferência feita:29/03/2025</ThemedText>
+            <ThemedText type="defaultSemiBold">Ultima transferência feita:29/03/2025</ThemedText>
           </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
+      <Button
+  onPress={() => {
+    console.log('You tapped the button!');
+  }}
+  title="Press Me"
+/>
         <ThemedText type="subtitle">Pagar por pix</ThemedText>
         <ThemedText>
        Suas transferências mais recentes: +55 ****-****
