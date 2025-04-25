@@ -26,7 +26,7 @@ export default function HomeScreen() {
   }}
   title="PIX"
 />
-        <ThemedText type="subtitle">Transferências</ThemedText>
+        <ThemedText type="subtitle"></ThemedText>
         <ThemedText>
             <ThemedText type="defaultSemiBold">Ultima transferência feita:29/03/2025</ThemedText>
           </ThemedText>
@@ -36,18 +36,24 @@ export default function HomeScreen() {
   onPress={() => {
     console.log('You tapped the button!');
   }}
-  title="Press Me"
-/>
-        <ThemedText type="subtitle">Pagar por pix</ThemedText>
-        <ThemedText>
-       Suas transferências mais recentes: +55 ****-****
+  title="Cartões"
+/>''
+        <ThemedText type="subtitle">saldo em credito:</ThemedText>
+        <ThemedText> R$4,521
+       
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Sua chave pix: </ThemedText>
+      <Button
+  onPress={() => {
+    console.log('You tapped the button!');
+  }}
+  title="Depósitos"
+/>
+        <ThemedText type="subtitle">Ultimo deposito feito dia: </ThemedText>
         <ThemedText>
           {' '}
-          <ThemedText type="defaultSemiBold">cpf: *** *** ***-**</ThemedText> {' '}
+          <ThemedText type="defaultSemiBold">10/10/2024</ThemedText> {' '}
           <ThemedText type="defaultSemiBold"></ThemedText> {' '}
           <ThemedText type="defaultSemiBold"></ThemedText>{' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
